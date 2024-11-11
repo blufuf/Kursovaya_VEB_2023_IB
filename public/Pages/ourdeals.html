@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/styles/main_header.css">
+    <link rel="stylesheet" href="../static/styles/base.css">
+    <link rel="stylesheet" href="../static/styles/main_deals.css">
+    <link rel="stylesheet" href="../static/styles/main_footer.css">
+    <title>Наши предложения</title>
+</head>
+<body>
+    <header class="header_about" id="header-container">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-row">
+                    <a href="{{logoLink}}">
+                        <img class="logo" src="{{logoSrc}}" alt="Logo">
+                    </a>
+                    <div class="header_nav">
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                {{#each menuItems}}
+                                <li><a href="{{url}}">{{label}}</a></li>
+                                {{/each}}
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<main>
+    <section class="banner banner-image">
+        <div class="banner_content">
+          <h1 class="banner-title">Наши предложения</h1>
+          <nav class="banner-nav">
+            <p class="banner_gps"><a href="../Pages/home.html">Главная </a> > <span class="banner_gps-inside"> Наши предложения </span></p>
+          </nav>
+        </div>
+    </section>
+
+    <section class="deals">
+        <div class="wrapper">
+            <i id="left" class="fa-solid fa-angle-left"></i>
+            <div class="carousel">
+              <img src="../static/img/contact/charter-5.png.png" alt="img" draggable="false">
+              <img src="../static/img/contact/charter-6.png.png" alt="img" draggable="false">
+              <img src="../static/img/contact/charter-7.png.png" alt="img" draggable="false">
+              <img src="../static/img/contact/charter-8.png.png" alt="img" draggable="false">
+              <img src="../static/img/contact/charter-13.png.png" alt="img" draggable="false">
+              <img src="../static/img/contact/charter-14.png.png" alt="img" draggable="false">
+              <img src="../static/img/contact/charter-15.png.png" alt="img" draggable="false">
+              <img src="../static/img/contact/charter-16.png.png" alt="img" draggable="false">
+            </div>
+            <i id="right" class="fa-solid fa-angle-right"></i>
+          </div>
+    </section>
+
+    <section class="stats">
+        <div class="stats_container">   
+            <div class="stats-item">
+                <div class="stats-number">
+                    <h1 class="number" id="pilots"></h1>
+                    <p class="stats-text">Профессиональные пилоты</p>
+                </div>
+            </div>
+            <div class="stats-item1">
+                <div class="stats-number">
+                    <h1 class="number" id="airplanes"></h1>
+                    <p class="stats-text">Реактивные самолеты</p>
+                </div>
+            </div>
+            <div class="stats-item2">
+                <div class="stats-number">
+                    <h1 class="number" id="cities"></h1>
+                    <p class="stats-text">Мировые аэропорты</p>
+                </div>
+            </div>
+            <div class="stats-item3">
+                <div class="stats-number">
+                    <h1 class="number" id="orders"></h1>
+                    <p class="stats-text">Направления</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer-section-deals">
+        <div class="footer_conteiner">
+            <div class="footer_bottom">
+                <div class="footer_bottom-row">
+                    <div class="footer_bottom-widget1">
+                        <h4 class="footer_bottom-title">Начать</h4>
+                        <div class="footer_bottom-border"></div>
+                        <ul class="footer_bottom-list">
+                            <li class="footer_bottom-list-element"> <a class="footer-link" href="#!">Private jet</a> </li>
+                            <li class="footer_bottom-list-element"> <a class="footer-link" href="#!">Текущие предложения самолетов</a></li>
+                            <li class="footer_bottom-list-element"> <a class="footer-link" href="#!">Мобильное приложение PrivateFlights</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_bottom-widget2">
+                        <h4 class="footer_bottom-title">Как это работает</h4>
+                        <div class="footer_bottom-border"></div>
+                        <ul class="footer_bottom-list">
+                            <li class="footer_bottom-list-element"> <a class="footer-link" href="#!">Как это работает</a> </li>
+                            <li class="footer_bottom-list-element"> <a class="footer-link" href="#!">Способы летать</a></li>
+                            <li class="footer_bottom-list-element"> <a class="footer-link" href="#!">Способы купить</a></li>
+                            <li class="footer_bottom-list-element"> <a class="footer-link" href="#!">Стоимость частного самолета</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_bottom-widget3">
+                        <h4 class="footer_bottom-title">О нас</h4>
+                        <div class="footer_bottom-border"></div>
+                        <ul class="footer_bottom-list">
+                            <li class="footer_bottom-list-element"> <a class="footer-link" href="#!">О нас</a> </li>
+                            <li class="footer_bottom-list-element"> <a class="footer-link" href="#!">Блог</a></li>
+                            <li class="footer_bottom-list-element"> <a class="footer-link" href="#!">Faq</a></li>
+                            <li class="footer_bottom-list-element"> <a class="footer-link" href="#!">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_bottom-widget4">
+                        <h4 class="footer_bottom-title">Новостная рассылка</h4>
+                        <div class="footer_bottom-border"></div>
+                        <p class="footer_bottom-text">Компания PrivateFlights не совсем существует и была придумана для проекта.</p>
+                        <form class="footer_form" id="emailForm">
+                            <input class="footer_form-input" type="email" name="email" placeholder="Введите ваш email" required>
+                            <button class="footer-button" type="submit">Подписаться</button>
+                          </form>
+                          <div class="asda" id="result"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_row">
+                <div class="footer-widget1">
+                    <img class="footer-logo" src="../static/img/logo.png" alt="">
+                    <p class="footer_row-text">Компания PrivateFlights не совсем существует и была придумана для проекта. Все является фантазией автора и не несет ни какой правдивой информации.</p>
+                </div>
+                <div class="footer-widget2">
+                    <p class="footer_row-name">ЕВРОПА</p>
+                    <ul class="footer_row-list">
+                        <li class="footer_row-list-element"> Jordanstr. 16 89185 </li>
+                        <li class="footer_row-list-element"> Cloppenburg</li>
+                        <li class="footer_row-list-element"> +49 (04187) 78938</li>
+                    </ul>
+                </div>
+                <div class="footer-widget3">
+                    <p class="footer_row-name">АЗИЯ</p>
+                    <ul class="footer_row-list">
+                        <li class="footer_row-list-element"> 34 Jalan Zemlak Drive </li>
+                        <li class="footer_row-list-element"> Singapore SG</li>
+                        <li class="footer_row-list-element"> +65 6388 6211</li>
+                    </ul>
+                </div>
+                <div class="footer-widget4">
+                    <p class="footer_row-name">СЕВЕРНАЯ АМЕРИКА</p>
+                    <ul class="footer_row-list">
+                        <li class="footer_row-list-element"> 5516 Nicolas Forks Marcport </li>
+                        <li class="footer_row-list-element"> Canada</li>
+                        <li class="footer_row-list-element"> +1 885 432 0851</li>
+                    </ul>
+                </div>
+    
+            </div>
+        </div>
+    </footer>
+
+</main>
+
+    <script>
+    fetch('/data')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('pilots').textContent += data.pilots;
+            document.getElementById('airplanes').textContent += data.airplanes;
+            document.getElementById('cities').textContent += data.cities;
+            document.getElementById('orders').textContent += data.orders;
+        })
+        .catch(error => console.error(error));
+    </script>
+    <script></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../static/scripts/ajax.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.7/dist/handlebars.min.js"></script>
+    <script src="../static/scripts/templates.js"></script> 
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            generateHeader(); // Вызов функции для генерации шапки
+        });
+    </script>
+    <script src="../static/scripts/slider.js"></script>
+</body>
+</html>

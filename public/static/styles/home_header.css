@@ -1,0 +1,123 @@
+.container{
+    
+    padding: 0, 15px;
+    margin-left: 134px;
+    margin-right: 134px;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 980px;
+    
+}
+
+.element{
+    background-image: url(../img/header/element-1.png),url(../img/header/element-2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto, 50%;
+}
+
+.header__top-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav__list{
+    display: flex;
+    column-gap: 40px;
+}
+
+.logo{
+    height: 95px;
+    width: 185px;
+}
+
+.header__title{
+    position: absolute;
+    top: 250px;
+}
+
+.container-title{
+    width: 545px;
+    height: 455px;
+    margin-left: 250px;
+}
+
+.header__title-name2{
+    color: #DCBB87;
+}
+
+.header__title-name{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.header__title-title{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 84.5px;
+}
+
+.header__title-text{
+    font-size: 16px;
+    line-height: 27.2px;
+}
+
+.header__title-link{
+    position: absolute;
+    top: 575px;
+}
+
+
+.button {
+    position: relative;
+    background: #19232D;
+    padding: 12px 20px;
+    margin-right: 14px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 100px;
+    border: 1px;
+    border-style: solid;
+    border-color: #DCBB87;
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .button span {
+    position: relative;
+    pointer-events: none;
+  }
+  .button::before {
+    --size: 0;
+    content: "";
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side, #DCBB87, transparent);
+    transform: translate(-50%, -50%);
+    transition: width 0.2s ease, height 0.2s ease;
+  }
+  .button:hover::before {
+    --size: 400px;
+  }
+
+.header__title-link2{
+    font-size: 16px;
+    font-weight: 800;
+}
+

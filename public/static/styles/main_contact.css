@@ -1,0 +1,117 @@
+.section_contact{
+    position: absolute;
+    width: 100%;
+    height: 831px;
+    margin-top: 400px;
+}
+
+.contact_row{
+    position: absolute;
+    width: 1140px;
+    height: 621px;
+    margin-left: 390px;
+    margin-top: 120px;
+}
+
+.contact-widget{
+    position: absolute;
+    width: 540px;
+    height: 584.88px;
+    margin-left: 585px;
+    top: 0px;
+    
+}
+
+.about_content_name{
+    margin:0;
+    position: absolute;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    color: #DCBB87;
+}
+
+.contact-widget-form{
+    position: absolute;
+    width: 540px;
+    height: 180px;
+    box-shadow:  0px 5px 25px rgba(255, 255, 255, 0.247);
+    border-radius: 10px;
+}
+
+.about_content_title{
+    position: absolute;
+    left: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.about_content_text{
+    position: absolute;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 90px;
+}
+
+.contact-info{
+    position: absolute;
+    left: 585px;
+    width: 540px;
+    height: 405px;
+    top: 180px;
+}
+
+.contact-info-item{
+    width: 540px;
+    height: 93.56px;
+    margin-top: 40px;
+    box-shadow:  0px 5px 25px rgba(255, 255, 255, 0.247);
+    border-radius: 10px;
+}
+
+.contact-item-info{
+    margin-top: -65px;
+    width: 480px;
+    height: 93.56px;
+    margin-left: 60px;
+
+}
+
+.contact-item-info-title{
+    position: absolute;
+    margin-top: 0;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-item-info-adress{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 35px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-item-info-adress2{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 60px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+}
